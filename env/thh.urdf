@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<robot name="thh">
+    <!-- Colors --> 
+    <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+    </material>
+
+    <!-- Goal -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <sphere radius="0.5"/>
+                <origin rpy="0 0 0" xyz="0 0 0.5"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision> 
+             <geometry> 
+                <sphere radius="0.5"/>
+                <origin rpy="0 0 0" xyz="0 0 0.5"/>
+            </geometry>
+        </collision> 
+        <inertial> 
+            <mass value="1"/>
+            <inertia ixx="1000" ixy="1000" ixz="1000" iyy="1000" iyz="1000" izz="1000"/>
+        </inertial> 
+    </link>
+</robot>
