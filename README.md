@@ -1,6 +1,6 @@
 # Code for the Bayesian Behaviors framework
 
-The current repository contains the source code for generating the simulation results for the paper "Synergizing habits and goals with variational Bayes", published on *Nature Communications* (Link to be updated)
+The current repository contains the source code for generating the simulation results for the paper "**Synergizing habits and goals with variational Bayes**" by Dongqi Han, Kenji Doya, Dongsheng Li and Jun Tani, published on *Nature Communications*.  [[Link]](https://www.nature.com/articles/s41467-024-48577-7)
 
 ## Installation
 
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 And you also need to install PyTorch. Please install PyTorch >= 1.11 that matches your CUDA version according to <https://pytorch.org/>.
 
-## Demo: play with trained agent
+## Demo: play with trained agent for customized goal-directed planning
 
 You can try to play with trained agent model for goal-directed planning (the agent used for Figure.5 in the [paper](https://www.nature.com/articles/s41467-024-48577-7)) in PyBullet GUI.
 
@@ -109,4 +109,19 @@ plot_planning_details("DATAPATH/BB_planning/search_mpz_0.1/planning/")
 
 ## Citation
 
-To be updated
+Han, D., Doya, K., Li, D. et al. Synergizing habits and goals with variational Bayes. Nat Commun 15, 4461 (2024). https://doi.org/10.1038/s41467-024-48577-7
+
+### BibTeX
+
+```
+@article{han2024synergizing,
+  title={Synergizing habits and goals with variational Bayes},
+  author={Han, Dongqi and Doya, Kenji and Li, Dongsheng and Tani, Jun},
+  journal={Nature Communications},
+  volume={15},
+  number={1},
+  pages={4461},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+```
