@@ -14,6 +14,15 @@ pip install -r requirements.txt
 
 And you also need to install PyTorch. Please install PyTorch >= 1.11 that matches your CUDA version according to <https://pytorch.org/>.
 
+## Demo: play with trained agent
+
+You can try to play with trained agent model for goal-directed planning (the agent used for Figure.5 in the [paper](https://www.nature.com/articles/s41467-024-48577-7)) in PyBullet GUI.
+
+- You can customize the goal and see how the agent performs!
+- Check the ipython notebook `goal-directed-planning-demo.ipynb` and get started!
+
+![image info](./GUI.png)
+
 ## How to train and inference (Python, PyTorch)
 
 ### Habitization Experiment (Results for Figures 2, 3, 4)
